@@ -4,5 +4,5 @@ app = FastAPI()
 
 @app.get("/status")
 def get_status():
-    return {"status": "ok"}
+    return {"status": "ok", "message": "Webhook is live!"}
 
